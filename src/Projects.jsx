@@ -57,7 +57,6 @@ const Projects = () => {
             <div className="flex mt-3 gap-3 flex-wrap">
               <Techcontainer icon={<FaReact />} lang="React " />
               <Techcontainer icon={<SiExpress />} lang="Express" />
-              <Techcontainer icon={<SiSocketdotio />} lang="Socket" />
               <Techcontainer icon={<BiLogoPostgresql />} lang="PostgreSql" />
               <Techcontainer icon={<SiSocketdotio />} lang="Socket" />
               <Techcontainer icon={<SiTailwindcss />} lang="Tailwind" />
