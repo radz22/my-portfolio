@@ -7,11 +7,11 @@ import { PiArrowBendUpRightThin } from "react-icons/pi";
 import { RxCross1 } from "react-icons/rx";
 import { FaGithub } from "react-icons/fa";
 const Left = () => {
-  const [display, setDisplay] = useState(false);
+  // const [display, setDisplay] = useState(false);
 
-  setTimeout(() => {
-    setDisplay(!display);
-  }, 10000);
+  // setTimeout(() => {
+  //   setDisplay(!display);
+  // }, 10000);
   return (
     <div className=" gap-3 flex w-fit">
       <div>
@@ -100,37 +100,6 @@ const Left = () => {
           </div>
         </div>
       </div>
-      {display ? (
-        <div
-          className=" -z-0 absolute bottom-10 max-1xl:fixed max-1xl:right-7 rounded-br-lg shadow-xl rounded-t-lg opacity-70  bg-[#00000094] w-fit h-fit p-3  "
-          id="toggle"
-          data-aos="fade-right"
-        >
-          <div className="flex gap-3 ">
-            <h1 class="text-white text-[1.5rem]    text-center">
-              Are you interested?
-            </h1>
-            <button
-              className="text-white hover:text-[#b165d4]"
-              onClick={() => {
-                setDisplay(false);
-              }}
-            >
-              <RxCross1 />
-            </button>
-          </div>
-          <button className="text-center ">
-            <a
-              href="mailto:martinezmarc228@gmail.com"
-              class="text-white text-[1.2rem]  flex justify-center  text-center"
-            >
-              <h1 className="text-center text-[#b165d4] hover:text-[#a8a0a0] flex items-center gap-3">
-                Message Me <PiArrowBendUpRightThin />
-              </h1>
-            </a>
-          </button>
-        </div>
-      ) : null}
     </div>
   );
 };
