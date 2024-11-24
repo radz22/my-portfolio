@@ -60,9 +60,8 @@ const Left = () => {
         <div className=" mt-6 m-auto  ">
           <h1 className="text-[#FFFFFF] text-[2rem] mb-2 ">Education</h1>
 
-          <div className="flex gap-3 flex-wrap  w-fit hover:bg-[#a8a0a021] rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 p-2  ">
-            <h1 className="text-[#FFFF]">Tertiary - ST CLARE COLLEGE</h1>
-            <h1 className="text-[#b165d4]"> 2022 - 2028</h1>
+          <div className="flex gap-3 flex-wrap  w-fit hover:bg-[#a8a0a021] rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10  ">
+            <h1 className="text-[#FFFF]">ST CLARE COLLEGE</h1>
           </div>
 
           <div className="text-[#a8a0a0] text-xl font-[300] mr-3 mt-16 flex justify-center   w-1/2  text-center max-md:hidden">
