@@ -6,7 +6,7 @@ const About = () => {
       <div className="text-[#a8a0a0] bg-[#a8a0a021] rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 p-2 ">
         <h1 className="text-[#FFFFFF] text-[2rem]">About</h1>
         <p className="mb-4">
-          During my senior year, I started to develop the web with a basic
+          During my senior high year, I started to develop the web with a basic
           knowledge about HTML, CSS, and JAVASCRIPT. I continued and aimed to
           study programming since then, because I was curious how the web works
           in a browser.
