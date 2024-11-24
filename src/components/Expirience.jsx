@@ -21,7 +21,7 @@ const Expirience = () => {
             <div className="flex items-center gap-2   ">
               <span className="bg-white border-b h-fit w-[1.6rem]   transition-all duration-300 group-hover:w-[3rem]"></span>
               <a
-                href="https://drive.google.com/file/d/1be0bS3rdHSNGV_8TfnkY1Tfy_8B9h_U0/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1ASmE4gAfLDUWhuddMlly66zG0rUGPdWm/view?usp=drive_link"
                 className="text-[1.4rem]"
               >
                 Resume
