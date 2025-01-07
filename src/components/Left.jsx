@@ -3,15 +3,9 @@ import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
-import { PiArrowBendUpRightThin } from "react-icons/pi";
-import { RxCross1 } from "react-icons/rx";
+
 import { FaGithub } from "react-icons/fa";
 const Left = () => {
-  // const [display, setDisplay] = useState(false);
-
-  // setTimeout(() => {
-  //   setDisplay(!display);
-  // }, 10000);
   return (
     <div className=" gap-3 flex w-fit">
       <div>
@@ -19,7 +13,7 @@ const Left = () => {
           Radz Santillan
         </h1>
         <h1 className="text-[#a8a0a0] text-[2rem] font-[400]  max-md:text-[1.4rem]">
-          Aspiring Full-Stack Developer
+          Full-Stack Developer
         </h1>
         <h1 className="text-[#a8a0a0] text-[1rem] font-[400] max-lg:w-[20rem] ">
           I build responsive, elegant products and digital experiences for the

@@ -15,7 +15,8 @@ import { BiLogoPostgresql } from "react-icons/bi";
 import { RiNextjsFill } from "react-icons/ri";
 import { SiCloudinary } from "react-icons/si";
 import { FaGoogle } from "react-icons/fa";
-import { SiGooglemaps } from "react-icons/si";
+import { FaMapMarkerAlt } from "react-icons/fa";
+import { MdOutlineMail } from "react-icons/md";
 
 import nextecommerce from "../src/assets/nextjsecommerce.png";
 import canvas from "../src/assets/canvas.png";
@@ -42,11 +43,11 @@ const Projects = () => {
           <div>
             <div>
               <div className="   ">
-                <h1 className="text-[#FFFF]">Barangay System </h1>
+                <h1 className="text-[#FFFF]">Barangay BonBon System </h1>
               </div>
               <div className="flex gap-3 text-[#a8a0a0]">
                 <a
-                  href="https://drive.google.com/drive/u/6/folders/1-4EvPh3QYePRqKWhFyN--T8b5LX1Idop"
+                  href="https://barangaybonbon.onrender.com"
                   className=" text-white flex items-center gap-2 text-opacity-90 py-1"
                 >
                   Link
@@ -57,18 +58,19 @@ const Projects = () => {
             <div className="text-[#a8a0a0]">
               <p>
                 This project is my client's capstone project. It is a barangay
-                system and is currently under development.
+                system for Barangay BonBon.
               </p>
             </div>
             <div className="flex mt-3 gap-3 flex-wrap">
               <Techcontainer icon={<FaReact />} lang="React" />
               <Techcontainer icon={<SiExpress />} lang="Express" />
               <Techcontainer icon={<BiLogoPostgresql />} lang="Postgre SQL" />
-              <Techcontainer icon={<SiGooglemaps />} lang="Google Map API" />
               <Techcontainer icon={<FaNetworkWired />} lang="REST API" />
               <Techcontainer icon={<FaNodeJs />} lang="NODE" />
               <Techcontainer icon={<FaNpm />} lang="NPM" />
               <Techcontainer icon={<SiCloudinary />} lang="Cloudinary " />
+              <Techcontainer icon={<MdOutlineMail />} lang="Node Mailer " />
+              <Techcontainer icon={<FaMapMarkerAlt />} lang="OpenStreetMap" />
             </div>
           </div>
         </div>

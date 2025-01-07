@@ -6,8 +6,8 @@ const Expirience = () => {
       <div className="mt-20" id="res">
         <h1 className="text-[#FFFFFF] text-[2rem] mb-2 ">Experience</h1>
         <div className="flex gap-3 flex-wrap  mb-16 hover:bg-[#a8a0a021] rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 p-2 shadow-2xl ">
-          <h1 className="text-[#FFFF]">Fullstack Web Developer - Freelance</h1>
-          <h1 className="text-[#b165d4]">Sept. 2023 - January. 2024</h1>
+          <h1 className="text-[#FFFF]">Freelance</h1>
+          <h1 className="text-[#b165d4]">2024 - (Current) </h1>
           <div className="text-[#a8a0a0]">
             In my current role develop responsive visual design using React and
             Tailwind CSS and create more functionality in the web base what
@@ -21,7 +21,7 @@ const Expirience = () => {
             <div className="flex items-center gap-2   ">
               <span className="bg-white border-b h-fit w-[1.6rem]   transition-all duration-300 group-hover:w-[3rem]"></span>
               <a
-                href="https://drive.google.com/file/d/1ASmE4gAfLDUWhuddMlly66zG0rUGPdWm/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1LcFf04tydKxRCFt7-SCPYFmpDc1KbipO/view"
                 className="text-[1.4rem]"
               >
                 Resume

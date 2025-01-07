@@ -51,30 +51,32 @@ const Landing = () => {
   }, []);
 
   return (
-    <div className="w-auto h-dvh   max-xl:h-full  flex max-xl:block -z-0 overflow-x-hidden" >
+    <div className="w-auto h-dvh   max-xl:h-full  flex max-xl:block -z-0 overflow-x-hidden">
       <div
         id="followDiv"
         ref={followDivRef}
         className="fixed -z-80 rounded-full items-center max-md:hidden overflow-hidden "
       ></div>
 
-      <div className="  w-1/2 h-fit max-xl:w-full "  >
+      <div className="  w-1/2 h-fit max-xl:w-full ">
         <div className="flex  p-20 w-full   max-md:justify-center   gap-4 max-2xl:block h-full  max-md:p-6  ">
           <Left />
         </div>
       </div>
 
-      <div  data-aos='fade-left' className=" w-1/2 h-dvh max-xl:overflow-hidden max-xl:h-fit  overflow-auto   p-20  max-xl:w-full   max-md:justify-center   gap-4 max-xl:block    max-md:p-6 ">
+      <div
+        data-aos="fade-left"
+        className=" w-1/2 h-dvh max-xl:h-fit  overflow-scroll   p-20  max-xl:w-full   max-md:justify-center   gap-4 max-xl:block    max-md:p-6 "
+      >
         <About />
         <Stacks />
         <Expirience />
 
-        <div id="proj" >
+        <div id="proj">
           <h1 className="text-[#FFFFFF] text-[2rem]">Projects</h1>
           <Projects />
         </div>
 
-        
         <div className="text-[#a8a0a0]  text-center p-5 mt-10">
           <h1>
             Built with <span className="text-white">React.js</span> and{" "}
